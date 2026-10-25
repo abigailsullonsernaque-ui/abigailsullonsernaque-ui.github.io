@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contacto - Casma</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<table width="100%"  cellpadding="10" cellspacing="0">
+
+    <tr bgcolor="#A5D08A">
+        <td align="center">
+    
+            <h1>Contáctanos</h1>
+            <p>Conoce más sobre nuestra hermosa ciudad</p>
+        </td>
+    </tr>
+
+
+
+    <tr>
+        <td>
+            <h2>¡Estamos para ayudarte!</h2>
+
+            <p>
+                ¿Quieres conocer más sobre Casma, sus lugares turísticos,
+                su historia o su gastronomía? Completa el siguiente
+                formulario y comparte tus consultas o comentarios.
+            </p>
+
+            <hr>
+
+     <table width="100%" cellpadding="8">
+      <tr>
+     <td width="50%" valign="top">
+      <h3>Información de Casma</h3>
+
+         <p><b>Ubicación:</b> Áncash, Perú</p>
+
+         <p><b>Conocida como:</b>
+         Ciudad del Eterno Sol</p>
+
+         <p><b>Atractivos:</b>
+          Playas, sitios arqueológicos y naturaleza</p>
+
+         <p><b>Gastronomía:</b>
+         Pescados y mariscos</p>
+         </td>
+
+         <td width="50%" valign="top" align="center">
+               <img src="https://th.bing.com/th/id/R.fe7bf74a1432a9c144e20bb226f80afd?rik=MPEihGJrzpWPnw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-RPYtrcTPL-8%2fVUwYSqgz-bI%2fAAAAAAAAAFw%2f3fr14AVHRG0%2fs1600%2flugares%252Bturisticos%252Bde%252Bcasma.png&ehk=UWxDjANjyYDi73z3TOZiNyS1rSqTKCGshcpTIyP9zjg%3d&risl=&pid=ImgRaw&r=0"
+             alt="Paisaje de Casma"
+             width="280">
+
+             <p><i>Descubre la belleza de Casm.</i></p>
+                  </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td bgcolor="#DDDDDA">
+            <h2 align="center">Formulario de contacto</h2>
+
+            <p align="center">
+                Completa tus datos en los siguientes campos.
+            </p>
+
+            <form action="#" method="post">
+
+               <table width="90%" align="center" cellpadding="8">
+
+             <tr bgcolor="#E5F0DD">
+             <td colspan="2">
+              <h3>1. Datos personales</h3>
+                 </td>
+                 </tr>
+
+                  <tr>
+           <td width="35%">
+                <label for="nombre">Nombre completo:</label>
+                 </td>
+                     <td>
+                            <input type="text" id="nombre"
+                                   name="nombre"
+                                   placeholder="Escribe tus nombres"
+                                   maxlength="80"
+                                   required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="correo">Correo electrónico:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="correo"
+                                   name="correo"
+                                   placeholder="@correo.com"
+                                   maxlength="100"
+                                   required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="telefono">Número de teléfono:</label>
+                        </td>
+                        <td>
+                            <input type="number" id="telefono"
+                                   name="telefono"
+                                   placeholder="Escribe tu número"
+                                   required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="fecha">Fecha de visita:</label>
+                        </td>
+                        <td>
+                            <input type="date" id="fecha"
+                                   name="fecha" required>
+                        </td>
+                    </tr>
+
+                    <tr bgcolor="#E5F0DD">
+                        <td colspan="2">
+                            <h3>2. Información de tu consulta</h3>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="tema">Tema de interés:</label>
+                        </td>
+                        <td>
+                            <select id="tema" name="tema" required>
+                                <option value="">Selecciona una opción</option>
+                                <option value="historia">Historia de Casma</option>
+                                <option value="turismo">Lugares turísticos</option>
+                                <option value="gastronomia">Gastronomía</option>
+                                <option value="playas">Playas de Casma</option>
+                                <option value="otro">Otro tema</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>¿Cómo calificas nuestra página?</td>
+                        <td>
+                            <input type="radio" id="excelente"
+                                   name="calificacion"
+                                   value="excelente" required>
+                            <label for="excelente">Excelente</label>
+                            <br>
+
+                            <input type="radio" id="buena"
+                                   name="calificacion" value="buena">
+                            <label for="buena">Buena</label>
+                            <br>
+
+                            <input type="radio" id="regular"
+                                   name="calificacion" value="regular">
+                            <label for="regular">Regular</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="mensaje">Tu mensaje:</label>
+                        </td>
+                        <td>
+                            <textarea id="mensaje" name="mensaje"
+                                      rows="5" cols="35"
+                                      placeholder="Escribe tu consulta o comentario"
+                                      maxlength="500"
+                                      required></textarea>
+                        </td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Enviar formulario">
+                            &nbsp;&nbsp;
+                            <input type="reset" value="Borrar datos">
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <h2>Gracias por visitar nuestra página</h2>
+
+            <p>
+                Esperamos que hayas disfrutado conociendo la historia,
+                los atractivos turísticos y los sabores de Casma.
+                Te invitamos a descubrir todo lo que nuestra ciudad ofrece.
+            </p>
+        </td>
+    </tr>
+
+    <tr bgcolor="#A5D08A">
+        <td align="center">
+            <h3>CASMA - ÁNCASH - PERÚ</h3>
+            <p>Ciudad del Eterno Sol</p>
+            <p>Gracias por conocer nuestra cultura y tradición.</p>
+            <a href="index.html">Volver al inicio</a>
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
